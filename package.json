@@ -1,6 +1,6 @@
 {
   "name": "svelte-scroll-infinite-list",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "author": "srinivasb",
   "description": "Virtual scroll component for svelte projects",
   "main": "dist/index.js",
@@ -30,6 +30,6 @@
   "keywords":["virtual scroll", "infinite scroll", "svelte virtual list scroll"],
   "repository": {
     "type": "git",
-    "url": "https://github.com/2705srinivas/svelte-typing-animated.git"
+    "url": "https://github.com/2705srinivas/svelte-virtualized.git"
 }
 }
