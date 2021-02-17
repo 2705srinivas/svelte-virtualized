@@ -32,11 +32,7 @@ const pkg = require('./package.json');
 export default {
 	input: 'src/main.js',
 	output: [
-		{ file: pkg.main, format: 'umd', name: 'Virtualized' },
-		{sourcemap: true,
-		format: 'es',
-		name: 'Virtualized',
-		file: 'dist/index.module.js'}],
+		{ file: pkg.main, format: 'iife', name: 'Virtualized' }],
 	plugins: [
 		svelte({
 			compilerOptions: {
